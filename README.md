@@ -32,9 +32,15 @@ docker run -it --name ruby-3-tutorial ruby-3-tutorial
 
 Should be printed "Hello, world!"
 
-## Running a single script
+# Running a single script
 
 ```
 docker run -it --rm --name ruby -v "$PWD":/usr/src/app -w /usr/src/app ruby:3.2.3 ruby hello_world.rb
 ````
 Should be printed "Hello, world!"
+
+# Try examples with interactive terminal mode
+
+```
+docker run -it ruby:3.2.3
+```
