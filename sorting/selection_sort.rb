@@ -1,5 +1,5 @@
 ARRAY_SIZE = 50
-MAX_RANGE = 30
+MAX_RANGE = 35
 array = []
 
 (0..ARRAY_SIZE-1).each { array << Random.rand(MAX_RANGE) }
